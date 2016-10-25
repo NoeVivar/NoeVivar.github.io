@@ -4,17 +4,36 @@
 
 /* Color Palette */
 .color-1{
-    background: red;
+    background: #478ed7;
 }
-color-2{
-    background: blue;
+.color-2{
+    background: #43eae1;
 }
-color-3{
-    background: white;
+.color-3{
+    background: #9e54d0;
 }
+.color-4{
+    background: #e9d056;
+}
+.color-5{
+    background: #6896b9;
+}
+
 /* Textures or Patterns*/
-.pattern-1 {
-    background: url("../img/flag.png)";
+.pattern-1{
+    background: url(../img/black_shirt.jpg)
+}
+.pattern-2{
+    background: url(../img/white_paper.jpg)
+}
+.pattern-3{
+    background: url(../img/fuzz.jpg)
+}
+.pattern-4{
+    background: url(../img/lemon_bread.jpg)
+}
+.pattern-5{
+    background: url(../img/tile.jpg)
 }
 
 /* Imagery */
@@ -31,8 +50,8 @@ a:visited {
 }
 
 a:hover {
-    background: red;
-    margin-left: 10px;
+    background: yellow;
+    margin-left: 5px;
 }
 
 a:active {
@@ -40,5 +59,15 @@ a:active {
     background: blue;
 }
 /* Typography */
-font-family: 'Lobster', cursive;
+h1{
+    font-family: 'Noto Sans', sans-serif;
+}
+h2{font-family: 'Noto Sans', sans-serif;}
 
+h3{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p{
+    font-family: 'Mate', serif;
+}
