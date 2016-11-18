@@ -1,7 +1,51 @@
-body {
-    background: url("../img/congruent_pentagon.png");
+* { 
+  box-sizing: border-box;
 }
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: 'Nobile', sans-serif;
+  color: white;
+
+    background: rgba(0,0,0,.75);
+}
+
+
+
 img{
     width: 50%
     
 }
+
+#noe_resume {
+    float: left;
+    width: 12em;
+
+}
+
+#noe_resume:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+h1, h2, h3{
+    background: dodgerblue;
+    
+}
+
+
+a:hover {
+  border-bottom: solid white 2px;
+    color: dodgerblue;
+      
+}
+
+a:link,a:visited {
+  color: dodgerblue;
+  text-decoration: none;
+    }
+a:focus{
+        background: white;
+ 
+   
