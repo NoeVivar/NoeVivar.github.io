@@ -15,18 +15,32 @@ body {
 
 
 img{
-    width: 50%
+    width: 50%;
     
 }
 
 #noe_resume {
     float: left;
     width: 12em;
-
 }
 
 #noe_resume:hover {
   transform: scale(1.2) rotate(5deg);
+}
+
+#alakazam-stance{
+    float: left;
+     width: 200px;
+     height: 200px;
+    margin: 10% auto;
+}
+
+#mega-alakazam{
+    
+ float: left;
+     width: 200px;
+     height: 200px;
+    margin: 10% auto;
 }
 
 h1, h2, h3{
