@@ -35,6 +35,10 @@ h1, h2, h3{
     
 }
 
+ul{
+    line-height: 1.5em;
+}
+
 
 a:hover {
   border-bottom: solid white 2px;
