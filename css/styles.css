@@ -3,20 +3,13 @@
 }
   
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   text-align: left;
   font-family: 'Nobile', sans-serif;
   color: white;
 
     background: rgba(0,0,0,.75);
-}
-
-
-
-img{
-    width: 50%;
-    
 }
 
 #noe_resume {
@@ -28,19 +21,13 @@ img{
   transform: scale(1.2) rotate(5deg);
 }
 
-#alakazam-stance{
-    float: left;
-     width: 200px;
-     height: 200px;
-    margin: 10% auto;
-}
 
-#mega-alakazam{
+.pokemon-team {
     
- float: left;
-     width: 200px;
-     height: 200px;
-    margin: 10% auto;
+ display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 3px dotted dodgerblue;
 }
 
 h1, h2, h3{
