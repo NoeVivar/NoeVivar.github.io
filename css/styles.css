@@ -17,10 +17,6 @@ body {
     width: 12em;
 }
 
-#noe_resume:hover {
-  transform: scale(1.2) rotate(5deg);
-}
-
 
 .pokemon-team {
     
@@ -28,6 +24,25 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     border: 3px dotted dodgerblue;
+}
+
+#alakazam-stance:hover {
+    transform: scale(1.2);
+}
+#ampharos:hover {
+    transform: scale(1.2);
+}
+#roserade:hover {
+    transform: scale(1.2);
+}
+#sceptile:hover {
+    transform: scale(1.2);
+}
+#trevenant:hover {
+    transform: scale(1.2);
+}
+#avalugg:hover {
+    transform: scale(1.2);
 }
 
 h1, h2, h3{
