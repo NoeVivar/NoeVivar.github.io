@@ -49,6 +49,11 @@ body {
     transform: scale(1.2);
 }
 /*Portfolio*/
+
+figcaption{    
+    color: black;
+}
+
 .gallery {
  display: flex;
  flex-flow: row wrap;
@@ -59,7 +64,9 @@ figure {
   /* Note: Figures have default 1em margin. Optionally override. */
   padding: 1em;
   /* Set `flex-basis` to any value */
-  flex: 1 0 300px;
+  flex: 1 0 0px;
+
+
   
   /* Child & Also Parent   */
   display: flex;
@@ -88,7 +95,7 @@ figure p {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(255,255,0,.25);
+  background: rgba(0,0,255,.25);
   
   
   
@@ -120,10 +127,20 @@ figure p {
   text-decoration: none;
 }
 #reconstruct {
-    width: 50%;
+    width: 100%;
 }
-#item-1{
-    width: 50%;
+#concept-1{
+    width: 100%;
+}
+
+#concept-2 {
+    width: 100%;
+}
+#poster-1{
+    width: 100%;
+}
+#poster-2{
+    width: 100%;
 }
 
 
